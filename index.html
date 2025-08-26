@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>École du Souffle du Sable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Souffle du Sable</div>
+            <div class="nav-menu">
+                <a href="#accueil" class="nav-link" data-section="accueil">Accueil</a>
+                <a href="#techniques" class="nav-link" data-section="techniques">Techniques</a>
+                <a href="#formation" class="nav-link" data-section="formation">Formation</a>
+                <a href="#presentation" class="nav-link" data-section="presentation">Présentation</a>
+                <a href="#hierarchie" class="nav-link" data-section="hierarchie">Hiérarchie</a>
+                <a href="#reglement" class="nav-link" data-section="reglement">Règlement</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Section Accueil -->
+        <section id="accueil" class="hero-section">
+            <div class="hero-background" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1756170248/pplx_project_search_images/613cdeaa9f1fb3bc08705193675e1164489a3ba0.png');"></div>
+            <div class="hero-parallax" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1756170248/pplx_project_search_images/f3f52f308ce086d4e661a9b52c68b8d294ec75c7.png');"></div>
+            <div class="hero-content">
+                <h1 class="hero-title">École du Souffle du Sable</h1>
+                <p class="hero-subtitle">Maîtrisez les techniques granulaires et devenez un avec le désert</p>
+                <div class="sand-particles"></div>
+            </div>
+        </section>
+
+        <!-- Section Techniques du Souffle du Sable -->
+        <section id="techniques" class="section techniques-section">
+            <div class="techniques-banner" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1755458809/pplx_project_search_images/202cdad249d8c0a549f0cb8ad4677252621c569c.png');"></div>
+            <div class="container">
+                <h2>Les Formes du Souffle du Sable</h2>
+                <div class="techniques-grid">
+                    <div class="card technique-card" data-niveau="débutant">
+                        <div class="card__header">
+                            <h3>一の型 - Serpent Poussière</h3>
+                            <span class="status status--info">Débutant</span>
+                        </div>
+                        <div class="card__body">
+                            <p>Projection de sable qui ralentit drastiquement tous les adversaires touchés, entravant leurs mouvements comme un serpent qui enserre sa proie.</p>
+                            <div class="technique-effects"></div>
+                        </div>
+                    </div>
+
+                    <div class="card technique-card" data-niveau="intermédiaire">
+                        <div class="card__header">
+                            <h3>二の型 - Mirage Trompeur</h3>
+                            <span class="status status--warning">Intermédiaire</span>
+                        </div>
+                        <div class="card__body">
+                            <p>Fusion totale avec le sable environnant. Le pratiquant devient intouchable et inflige des dégâts à tous ceux qui l'approchent, tel un mirage mortel.</p>
+                            <div class="technique-effects"></div>
+                        </div>
+                    </div>
+
+                    <div class="card technique-card" data-niveau="avancé">
+                        <div class="card__header">
+                            <h3>三の型 - Éruption Aride</h3>
+                            <span class="status status--success">Avancé</span>
+                        </div>
+                        <div class="card__body">
+                            <p>Déchaînement d'une tempête de sable explosive qui repousse violemment tous les ennemis dans un large périmètre.</p>
+                            <div class="technique-effects"></div>
+                        </div>
+                    </div>
+
+                    <div class="card technique-card" data-niveau="avancé">
+                        <div class="card__header">
+                            <h3>四の型 - Piège Oasis</h3>
+                            <span class="status status--success">Avancé</span>
+                        </div>
+                        <div class="card__body">
+                            <p>Création d'une prison de sable infranchissable qui emprisonne les adversaires dans une étreinte minérale implacable.</p>
+                            <div class="technique-effects combat-effect" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1756170247/pplx_project_search_images/59f08713f4537cbaa9c8b0eb4f8891930477feba.png');"></div>
+                        </div>
+                    </div>
+
+                    <div class="card technique-card technique-secret" data-niveau="secret">
+                        <div class="card__header">
+                            <h3>五の型 - Tourbillon Avalanche</h3>
+                            <span class="status status--error">[CLASSIFIÉ]</span>
+                        </div>
+                        <div class="card__body">
+                            <p>Seuls les maîtres les plus accomplis connaissent les secrets de cette forme ultime.</p>
+                            <div class="secret-technique-art" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1756170247/pplx_project_search_images/3e51f193790932f3066fc493aee0d6032d059c95.png');"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Formation -->
+        <section id="formation" class="section formation-section">
+            <div class="formation-background" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1756170247/pplx_project_search_images/59f08713f4537cbaa9c8b0eb4f8891930477feba.png');"></div>
+            <div class="container">
+                <h2>Formation - Les Phases d'Apprentissage</h2>
+                
+                <div class="formation-grid">
+                    <div class="card formation-card">
+                        <div class="card__header">
+                            <h3>Novice</h3>
+                            <span class="status status--info">Places illimitées</span>
+                        </div>
+                        <div class="card__body">
+                            <h4>Premiers pas dans le sable</h4>
+                            <ul>
+                                <li>Respiration de base du sable</li>
+                                <li>Méditation désertique</li>
+                                <li>Découverte de l'art granulaire</li>
+                                <li>Philosophie du désert</li>
+                            </ul>
+                            <p><strong>Durée:</strong> 3 mois</p>
+                        </div>
+                    </div>
+
+                    <div class="card formation-card">
+                        <div class="card__header">
+                            <h3>Initié</h3>
+                            <span class="status status--info">Places illimitées</span>
+                        </div>
+                        <div class="card__body">
+                            <h4>Éveil aux techniques</h4>
+                            <ul>
+                                <li>Première forme: Serpent Poussière</li>
+                                <li>Manipulation basique du sable</li>
+                                <li>Entraînement physique intensif</li>
+                                <li>Étude des anciens maîtres</li>
+                            </ul>
+                            <p><strong>Durée:</strong> 6 mois</p>
+                        </div>
+                    </div>
+
+                    <div class="card formation-card">
+                        <div class="card__header">
+                            <h3>Disciple Intermédiaire</h3>
+                            <span class="status status--warning">Places illimitées</span>
+                        </div>
+                        <div class="card__body">
+                            <h4>Maîtrise grandissante</h4>
+                            <ul>
+                                <li>Deuxième forme: Mirage Trompeur</li>
+                                <li>Contrôle avancé du sable</li>
+                                <li>Combat en équipe</li>
+                                <li>Missions de terrain</li>
+                            </ul>
+                            <p><strong>Durée:</strong> 1 année</p>
+                        </div>
+                    </div>
+
+                    <div class="card formation-card">
+                        <div class="card__header">
+                            <h3>Disciple Avancé</h3>
+                            <span class="status status--success">Places illimitées</span>
+                        </div>
+                        <div class="card__body">
+                            <h4>Vers la perfection</h4>
+                            <ul>
+                                <li>Troisième et quatrième formes</li>
+                                <li>Techniques de combat avancées</li>
+                                <li>Leadership d'équipe</li>
+                                <li>Enseignement aux novices</li>
+                            </ul>
+                            <p><strong>Durée:</strong> 2 années</p>
+                        </div>
+                    </div>
+
+                    <div class="card formation-card formation-elite">
+                        <div class="card__header">
+                            <h3>Aspirant Maître</h3>
+                            <span class="status status--error">0/3</span>
+                        </div>
+                        <div class="card__body">
+                            <h4>L'élite de l'école</h4>
+                            <ul>
+                                <li>Accès aux techniques secrètes</li>
+                                <li>Formation de disciples</li>
+                                <li>Missions critiques</li>
+                                <li>Développement de nouvelles techniques</li>
+                            </ul>
+                            <p><strong>Durée:</strong> Sélection par les maîtres</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Présentation -->
+        <section id="presentation" class="section">
+            <div class="container">
+                <h2>Présentation de l'École</h2>
+                <div class="card">
+                    <div class="card__body">
+                        <p>L'École du Souffle du Sable forme les futurs maîtres des techniques granulaires, héritiers d'une tradition millénaire née dans les vastes étendues désertiques. Nos disciples apprennent à canaliser la puissance du sable, à comprendre les mystères des dunes et à maîtriser les tempêtes.</p>
+                        <p>Depuis des générations, nos techniques se transmettent de maître à élève, dans le respect de l'équilibre naturel et la protection des innocents. Le grain de sable peut sembler insignifiant, mais uni à ses pairs, il peut déplacer des montagnes et engloutir des armées.</p>
+                        <p>Notre école enseigne non seulement les techniques de combat, mais aussi la philosophie du désert : patience, persévérance et harmonie avec les éléments naturels.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Hiérarchie -->
+        <section id="hierarchie" class="section hierarchie-section">
+            <div class="hierarchie-ornaments"></div>
+            <div class="container">
+                <h2>Hiérarchie de l'École</h2>
+                
+                <div class="hierarchie-pyramid">
+                    <div class="hierarchie-level level-maitre">
+                        <div class="card hierarchie-card">
+                            <div class="card__header">
+                                <h3>Maître Suprême</h3>
+                            </div>
+                            <div class="card__body">
+                                <p><strong>[Vacant]</strong> - 1 poste</p>
+                                <p>Gardien ultime des traditions du Souffle du Sable</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hierarchie-level level-pilier">
+                        <div class="card hierarchie-card">
+                            <div class="card__header">
+                                <h3>Pilier du Désert</h3>
+                                <span class="status status--error">[Recherché]</span>
+                            </div>
+                            <div class="card__body">
+                                <p>0/1 - Le plus puissant guerrier de l'école</p>
+                                <p>Maîtrise parfaite de toutes les formes</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hierarchie-level level-referent">
+                        <div class="card hierarchie-card">
+                            <div class="card__header">
+                                <h3>Référent des Sables</h3>
+                                <span class="status status--success">Occupé</span>
+                            </div>
+                            <div class="card__body">
+                                <p><strong>Ryogi Aonagi</strong> - 1 poste</p>
+                                <p>Guide et mentor des disciples avancés</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hierarchie-level level-eleves">
+                        <div class="card hierarchie-card">
+                            <div class="card__header">
+                                <h3>Élèves Confirmés</h3>
+                                <span class="status status--warning">0/7</span>
+                            </div>
+                            <div class="card__body">
+                                <p>Maîtres en devenir, formateurs des novices</p>
+                                <p>Accès aux techniques avancées</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hierarchie-valeurs">
+                    <h3>Les Sept Valeurs du Désert</h3>
+                    <div class="valeurs-grid">
+                        <div class="valeur-item">
+                            <h4>🏜️ Patience</h4>
+                            <p>Comme les dunes qui se forment lentement</p>
+                        </div>
+                        <div class="valeur-item">
+                            <h4>💪 Endurance</h4>
+                            <p>Résister aux tempêtes les plus violentes</p>
+                        </div>
+                        <div class="valeur-item">
+                            <h4>🤝 Solidarité</h4>
+                            <p>Chaque grain compte dans la tempête</p>
+                        </div>
+                        <div class="valeur-item">
+                            <h4>🙏 Humilité</h4>
+                            <p>Devant l'immensité du désert</p>
+                        </div>
+                        <div class="valeur-item">
+                            <h4>⚖️ Équilibre</h4>
+                            <p>Harmonie entre force et sérénité</p>
+                        </div>
+                        <div class="valeur-item">
+                            <h4>🎯 Précision</h4>
+                            <p>Chaque mouvement compte</p>
+                        </div>
+                        <div class="valeur-item">
+                            <h4>🛡️ Protection</h4>
+                            <p>Défendre les innocents coûte que coûte</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Règlement -->
+        <section id="reglement" class="section">
+            <div class="container">
+                <h2>Règlement et Discipline</h2>
+                
+                <div class="reglement-grid">
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Serment de l'Élève</h3>
+                        </div>
+                        <div class="card__body">
+                            <div class="serment-text">
+                                <p><strong>"Par les grains qui dansent dans le vent,</strong></p>
+                                <p><strong>Par les dunes qui gardent leurs secrets,</strong></p>
+                                <p><strong>Par les tempêtes qui purifient le désert,</strong></p>
+                                <p><strong>Je jure de maîtriser le Souffle du Sable avec honneur."</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Code de Conduite</h3>
+                        </div>
+                        <div class="card__body">
+                            <ul>
+                                <li>Respect absolu envers les maîtres</li>
+                                <li>Solidarité entre tous les disciples</li>
+                                <li>Protection des secrets de l'école</li>
+                                <li>Usage responsable des techniques</li>
+                                <li>Défense des innocents avant tout</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card__header">
+                            <h3>Sanctions</h3>
+                        </div>
+                        <div class="card__body">
+                            <ul>
+                                <li>Fautes mineures → <span class="status status--warning">Entraînement supplémentaire</span></li>
+                                <li>Manque de respect → <span class="status status--error">Exclusion temporaire</span></li>
+                                <li>Trahison des secrets → <span class="status status--error">Bannissement définitif</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-ornaments"></div>
+        <div class="container">
+            <p>&copy; 2025 École du Souffle du Sable - Tous droits réservés</p>
+            <p>"Par les grains du désert, nous protégeons l'humanité"</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
